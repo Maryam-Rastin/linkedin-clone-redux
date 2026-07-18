@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Maryam-Rastin.github.io/linkedin-clone-redux/static/css/main.138df3cb.css",
+    "main.js": "/Maryam-Rastin.github.io/linkedin-clone-redux/static/js/main.f93e7068.js",
+    "index.html": "/Maryam-Rastin.github.io/linkedin-clone-redux/index.html",
+    "main.138df3cb.css.map": "/Maryam-Rastin.github.io/linkedin-clone-redux/static/css/main.138df3cb.css.map",
+    "main.f93e7068.js.map": "/Maryam-Rastin.github.io/linkedin-clone-redux/static/js/main.f93e7068.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.138df3cb.css",
+    "static/js/main.f93e7068.js"
+  ]
+}
