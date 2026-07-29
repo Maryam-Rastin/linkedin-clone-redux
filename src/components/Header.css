@@ -41,3 +41,14 @@
 .header__right {
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header__search {
+    display: none;
+  }
+}

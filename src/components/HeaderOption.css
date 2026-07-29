@@ -21,3 +21,12 @@
 .headerOption:hover {
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .headerOption {
+    margin-right: 8px;
+  }
+  .headerOption__title {
+    display: none;
+  }
+}
