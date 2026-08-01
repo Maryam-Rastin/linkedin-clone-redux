@@ -11,10 +11,11 @@ const Login = () => {
   const [profilePic, setProfilePic] = useState("");
   const dispatch = useDispatch();
 
-  const loginToApp = (e) => {
-    e.preventDefault();
+const loginToApp = (e) => {
+  e.preventDefault();
 
-    auth.signInWithEmailAndPassword(email, password).then((userAuth) => {
+  auth.signInWithEmailAndPassword(email, password)
+    .then((userAuth) => {
       dispatch(
         login({
           email: userAuth.user.email,
@@ -23,8 +24,9 @@ const Login = () => {
           photoURL: userAuth.user.photoURL,
         })
       );
-    });
-  };
+    })
+    .catch((error) => alert("Login failed: " + error.message));
+};
   const register = () => {
     if (!name) {
       return alert("Please enter a fullname!");
